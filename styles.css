@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.app-icon {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-image: url("assets/icon.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.app-title {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.app-description {
+    text-align: center;
+    margin-top: 10px;
+    color: #888;
+}
+
+.screenshots-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-top: 30px;
+}
+
+.screenshot {
+    display: inline-block;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.screenshot img {
+    max-width: 300px;
+    height: auto;
+    display: block;
+}
+
+
+
+.email {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.email:hover {
+    background-color: #45a049;
+}
